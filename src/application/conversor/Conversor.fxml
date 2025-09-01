@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="307.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.conversor.ConversorController">
+   <children>
+      <ImageView fitHeight="166.0" fitWidth="169.0" layoutX="1.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/img/icontemperatura.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="28.0" layoutY="23.0" prefHeight="32.0" prefWidth="278.0" text="Valor para conversão:">
+         <font>
+            <Font name="Segoe UI Semibold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="126.0" layoutY="103.0" prefHeight="32.0" prefWidth="278.0" text="De:">
+         <font>
+            <Font name="Segoe UI Semibold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="126.0" layoutY="145.0" prefHeight="32.0" prefWidth="278.0" text="Para:">
+         <font>
+            <Font name="Segoe UI Semibold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="252.0" prefHeight="32.0" prefWidth="278.0" text="Temperatura convertida:">
+         <font>
+            <Font name="Segoe UI Semibold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="campoEntrada" layoutX="295.0" layoutY="27.0" prefHeight="25.0" prefWidth="223.0" />
+      <TextField fx:id="campoSaida" layoutX="295.0" layoutY="256.0" prefHeight="25.0" prefWidth="223.0" />
+      <ComboBox fx:id="comboDe" layoutX="190.0" layoutY="107.0" prefHeight="25.0" prefWidth="329.0" promptText="Escolha o tipo de conversão" />
+      <ComboBox fx:id="comboPara" layoutX="190.0" layoutY="148.0" prefHeight="25.0" prefWidth="329.0" promptText="Escolha o tipo de conversão" />
+      <Button fx:id="btnLimpar" layoutX="190.0" layoutY="197.0" mnemonicParsing="false" onAction="#limpar" prefHeight="32.0" prefWidth="96.0" text="Limpar">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCalcular" layoutX="307.0" layoutY="197.0" mnemonicParsing="false" onAction="#calcular" prefHeight="32.0" prefWidth="96.0" text="Calcular">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
