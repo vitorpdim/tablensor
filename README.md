@@ -2,7 +2,7 @@
 
 ## 1\. Introdução
 
-Tablensor é uma aplicação desktop desenvolvida em Java, utilizando o framework JavaFX para a construção da interface gráfica. O projeto foi concebido como um portfólio de aprendizado, com o objetivo de aplicar e testar conceitos fundamentais de desenvolvimento de software, incluindo a criação de interfaces com FXML, manipulação de eventos e a aplicação do padrão arquitetural Model-View-Controller (MVC).
+Tablensor é uma aplicação simples de desktop desenvolvida em Java, utilizando o framework JavaFX para a construção da interface gráfica. O projeto foi concebido como um portfólio de aprendizado, com o objetivo de aplicar e testar conceitos fundamentais de desenvolvimento de software, incluindo a criação de interfaces com FXML, manipulação de eventos e a aplicação do padrão arquitetural Model-View-Controller (MVC).
 
 A aplicação consiste em um menu principal que serve como um hub para acessar diversas ferramentas de utilidade, cada uma operando em sua própria janela.
 
