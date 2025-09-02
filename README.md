@@ -1,4 +1,4 @@
-# Tablensor: Suíte de Ferramentas Desktop com JavaFX
+# Suíte de Ferramentas Desktop com JavaFX
 
 ## 1\. Introdução
 
